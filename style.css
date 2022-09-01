@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  color: #9aa0a6;
+}
+* a {
+  text-decoration: none;
+}
+* a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: #222;
+}
+
+.header {
+  margin: 6px 0;
+  padding: 12px 0;
+  background-color: #222;
+  margin-right: 15px;
+}
+.header-menu {
+  display: flex;
+  justify-content: flex-end;
+  right: 0;
+  align-items: center;
+}
+.header-menu a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #DADADB;
+  margin-left: 15px;
+  font-size: 18px;
+  line-height: 24px;
+  overflow: hidden;
+}
+.header-menu a:hover {
+  text-decoration: underline;
+}
+
+.bd-circle {
+  background-color: #222;
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.bd-circle, .bd-circle img {
+  border-radius: 50%;
+}
+.bd-circle:hover {
+  background-color: #2F3034;
+}
+
+.container {
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .search {
+  margin-top: 20px;
+  outline: white solid 0.1px;
+  width: 585px;
+  height: 44px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+.container .search i {
+  color: white;
+  margin: 12px 13px 12px 14px;
+}
+.container .search input {
+  background-color: #222;
+  width: 443px;
+  height: 34px;
+  margin: 5px 0;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  color: white;
+}
+.container .search .search-item {
+  margin-left: 2px;
+  font-size: 18px;
+}
+.container .desc {
+  margin: 29px 0 12px 23px;
+  padding: 11px 112px 11px 112px;
+  display: flex;
+  justify-content: center;
+}
+.container .desc a {
+  color: white;
+  padding: 10px 16px;
+  background-color: #303134;
+  border-radius: 3px;
+}
+.container .desc a:first-child {
+  margin-right: 12px;
+}
+.container .desc a:hover {
+  outline: 0.1px solid wheat;
+}
+.container .more {
+  height: 218px;
+  color: #6B6E72;
+  padding: 0 6px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.container .more-desc-text a {
+  color: #8ab4f8;
+  margin-left: 10px;
+}
+
+.footer {
+  display: inline-block;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  background-color: #171717;
+  font-size: 18px;
+}
+.footer-country {
+  width: 100%;
+  padding: 15px 30px 15px 30px;
+}
+.footer-country:first-child {
+  border-bottom: #6B6E72 solid 0.1px;
+}
+.footer .footer-more {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer-more .a-mg a {
+  margin-right: 30px;
+  color: #999da2;
+}
+.footer .footer-more :last-child {
+  margin-right: 30px;
+  outline: none;
+}
+
+/*# sourceMappingURL=style.css.map */
